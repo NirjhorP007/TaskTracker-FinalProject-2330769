@@ -52,8 +52,11 @@ View Task Statistics: View the total number of tasks and completed tasks updated
 
 📂 Project Structure
 css
+
 Copy code
+
 task-tracker-final-project/
+
 ├── src/
 │   ├── final-project/
 │   │   ├── App.jsx
@@ -69,6 +72,7 @@ task-tracker-final-project/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
 This structure follows a modular, component-based approach to ensure readability and maintainability.
 
 ⚙️ Technologies Used
