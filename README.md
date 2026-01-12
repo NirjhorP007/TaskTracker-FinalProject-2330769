@@ -1,61 +1,58 @@
-Task Tracker – Diploma Project
+# Task Tracker – Diploma Project  
+**Mobile Application Programming**
 
-Mobile Application Programming
+---
 
-1. Project Overview
+## 📌 Project Overview
 
-Task Tracker is a React-based web application developed as part of my Diploma Project in Mobile Application Programming. The application is designed to assist users in managing daily tasks by allowing them to add tasks, mark tasks as completed, and delete tasks when they are no longer required.
+**Task Tracker** is a React-based web application developed as part of my **Diploma Project in Mobile Application Programming**. The application is designed to help users manage daily tasks by allowing them to add tasks, mark tasks as completed, and delete tasks when they are no longer required.
 
-The primary objective of this project is to demonstrate a clear understanding of fundamental React concepts and component-based application development. The application focuses on functionality, clarity, and correctness rather than advanced user interface design.
+The primary objective of this project is to demonstrate a clear understanding of fundamental **React concepts** and **component-based application development**. The project emphasizes functionality, clarity, and correctness rather than advanced visual design.
 
 Key concepts demonstrated in this project include:
 
-Functional components
+- Functional components  
+- State management using `useState`  
+- Props and event handling  
+- List rendering using `map()`  
+- Conditional rendering and styling  
 
-State management using useState
+The application also provides real-time task statistics to support effective task tracking.
 
-Props and event handling
+---
 
-List rendering using map()
+## 🚀 How to Run the Application
 
-Conditional rendering and styling
+### Prerequisites
+- Install **Node.js** from: https://nodejs.org  
 
-Additionally, the application provides real-time task statistics to help users track progress efficiently.
+### Installation and Execution
 
-2. How to Run the Application
-2.1 Prerequisites
-
-Install Node.js from: https://nodejs.org
-
-2.2 Installation and Execution
-
-Open the project folder using a code editor such as Visual Studio Code
-
-Install the required dependencies by running:
-
-npm install
-
-
+1. Open the project folder using a code editor such as **Visual Studio Code**
+2. Install the required dependencies:
+   ```bash
+   npm install
 Start the development server:
 
+bash
+Copy code
 npm run dev
+Open the generated local URL (e.g., http://localhost:5173/) in a web browser
 
-
-Open the generated local URL (e.g., http://localhost:5173/) in a web browser to access the application
-
-3. Application Usage
-
+📝 Application Usage
 The Task Tracker application supports the following user actions:
 
-Add Tasks: Users can enter a task name and add it to the task list
+Add Tasks: Enter a task name and add it to the task list
 
-Mark Tasks as Completed: Tasks can be marked as completed, which visually distinguishes them from active tasks
+Mark Tasks as Completed: Toggle task completion status with visual distinction
 
-Delete Tasks: Users can remove tasks from the list when they are no longer needed
+Delete Tasks: Remove tasks from the list when no longer needed
 
-View Task Statistics: The application dynamically displays the total number of tasks and the number of completed tasks
+View Task Statistics: View the total number of tasks and completed tasks updated in real time
 
-4. Project Structure
+📂 Project Structure
+css
+Copy code
 task-tracker-final-project/
 ├── src/
 │   ├── final-project/
@@ -72,20 +69,16 @@ task-tracker-final-project/
 ├── package.json
 ├── vite.config.js
 └── README.md
+This structure follows a modular, component-based approach to ensure readability and maintainability.
 
+⚙️ Technologies Used
+React – Functional components, JSX, state management, props
 
-This structure follows a component-based architecture to ensure modularity, readability, and maintainability.
+JavaScript – ES6+ features
 
-5. Technologies Used
+HTML & CSS – Basic layout and conditional styling
 
-React: Functional components, JSX, state management, and props
+Vite – Development and build tool
 
-JavaScript: ES6+ syntax and features
-
-HTML & CSS: Basic layout and conditional styling
-
-Vite: Development and build tool
-
-6. Conclusion
-
-This project demonstrates the ability to design and implement a simple yet functional React application using modern front-end development practices. By focusing on core React principles and clean component structure, the Task Tracker application serves as a strong and appropriate submission for a Mobile Application Programming Diploma Project.
+✅ Conclusion
+This project demonstrates the ability to design and implement a component-based React application with dynamic state management and user interaction. By focusing on core React principles and clean architecture, the Task Tracker application represents a suitable and effective submission for a Mobile Application Programming Diploma Project.
